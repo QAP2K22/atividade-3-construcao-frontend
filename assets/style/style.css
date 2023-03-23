@@ -1,0 +1,50 @@
+:root {
+    --verde: #00ff00;
+    --branco: #ffffff;
+    --preto: #000000;
+    --vermelho: rgb(255,0,0);   
+}
+
+h1 {
+    color: var(--preto);
+    border: var(--vermelho) solid 5px;
+    text-align: center;
+
+    font-size: calc(10*20);
+    padding: 30px;
+}
+
+
+h2 {
+    text-align: center;
+    color: var(--branco);
+    background-color: var(--verde);
+}
+
+p {
+    margin-left: 10px;
+    text-indent: 2.5em;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    display: flex;
+    margin-right: 30px;
+    text-decoration: none;
+    border: var(--vermelho) 2px solid ;
+    border-style: none none dotted dotted ;
+    padding: 5px;
+}
+
+li a {
+    text-decoration: none;
+    color: #e00bc4;
+}
+
+a:hover {
+    color: var(--preto);
+}
